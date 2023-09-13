@@ -17,10 +17,13 @@ input {
 	font: inherit;
 	font-size: 0.9em;
 	background-color: #161616;
-	border: 0.1em solid #666666;
+	border: 0.1em solid #646464;
 	opacity: 0.9;
 	color: #efe0e0;
 	letter-spacing: 0.05em;
 	border-radius: 0.5em;
-	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+input:hover {
+	border: 0.1em solid #807979;
 }
