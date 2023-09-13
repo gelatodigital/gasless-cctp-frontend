@@ -31,3 +31,7 @@ select {
 select:hover {
 	border: 0.1em solid #807979;
 }
+
+select:focus {
+	outline: none;
+}
