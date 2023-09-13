@@ -1,0 +1,28 @@
+.select {
+	display: flex;
+	flex-direction: column;
+	gap: 0.1em;
+}
+
+.select span {
+	color: #efe0e0;
+	opacity: 0.8;
+	font-size: 0.8em;
+	padding: 0.2em;
+}
+
+select {
+	border: none;
+	padding: 1em;
+	font: inherit;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	background-color: #202020;
+	border: 0.1em solid #807979;
+	opacity: 0.9;
+	color: #efe0e0;
+	letter-spacing: 0.05em;
+	font-weight: 600;
+	border-radius: 0.5em;
+	appearance: none;
+}

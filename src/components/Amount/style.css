@@ -1,0 +1,26 @@
+.input {
+	display: flex;
+	flex-direction: column;
+	gap: 0.1em;
+}
+
+.input span {
+	color: #efe0e0;
+	opacity: 0.8;
+	font-size: 0.8em;
+	padding: 0.2em;
+}
+
+input {
+	border: none;
+	padding: 0.5em;
+	font: inherit;
+	font-size: 0.9em;
+	background-color: #161616;
+	border: 0.1em solid #666666;
+	opacity: 0.9;
+	color: #efe0e0;
+	letter-spacing: 0.05em;
+	border-radius: 0.5em;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
