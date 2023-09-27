@@ -33,7 +33,7 @@ main {
 
 .product {
   background-color: #191919;
-  width: 350px;
+  width: 370px;
   max-width: 80%;
   max-height: 80%;
   padding: 2em;
@@ -79,4 +79,31 @@ main {
 .product .total div {
   display: flex;
   justify-content: space-between;
+}
+
+.product .audit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85em;
+  background-color: #eb6540;
+  padding: 0.8em;
+  padding-right: 1.6em;
+  border-radius: 0.5em;
+  font-weight: 600;
+  color: #202020;
+  gap: 0.5em;
+}
+
+.product .audit .warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 0;
+}
+
+.product .audit .content {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,4 +1,5 @@
 import useWalletProvider from '../../hooks/useWalletProvider';
+import { ReactComponent as Warning } from '../../icons/warning.svg';
 import { Button, State, Status } from '../Button';
 import { TypedDataField, ethers } from 'ethers';
 import { ChainId } from '../../cctp-sdk/constants';
@@ -104,6 +105,13 @@ const App = () => {
         <Header />
         <main>
           <div className='product'>
+            <div className='audit'>
+              <span className='warning'><Warning /></span>
+              <div className='content'>
+                <span>Code is not yet audited by a third party</span>
+                <span>Please use at your own discretion</span>
+              </div>
+            </div>
             <div className='image'>
               <div>
                 <Path onChange={onChangeChain} />
